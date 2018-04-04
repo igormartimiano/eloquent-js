@@ -1,0 +1,19 @@
+{
+  "name": "eloquent-js",
+  "version": "1.0.0",
+  "description": "All my exercises from the book Eloquent JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "ES2015",
+    "ES6",
+    "ES7"
+  ],
+  "author": "Igor Martimiano",
+  "license": "MIT",
+  "devDependencies": {}
+}
