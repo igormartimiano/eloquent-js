@@ -1,11 +1,10 @@
-function chicken() {
+let chicken = () => {
     return egg();
 }
 
-function egg() {
+let egg = () => {
     return chicken();
 }
 
 console.log(chicken() + " came first.");
-
-// Returns out of stack 
+// Returns maximum call stack size exceeded
