@@ -1,3 +1,3 @@
-# My Exercises from the book Eloquent Javascript
+# My Assets from the book Eloquent JS
 
-All my exercises from the excellent book [Eloquent JS](https://eloquentjavascript.net/) by Marijn Haverbeke.
+All my tests and exercises from the excellent book [Eloquent Javascript](https://eloquentjavascript.net/) by Marijn Haverbeke.

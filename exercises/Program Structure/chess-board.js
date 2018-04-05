@@ -6,7 +6,7 @@ for (let i = 1; i <= size; i++) {
         if ((e + i) % 2 === 0) {
             board += ' ';
         } else {
-            board += '♚';    
+            board += '♚';
         }
     }
     board += "\n";
