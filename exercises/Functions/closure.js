@@ -8,7 +8,7 @@ console.log(addAge());
 
 
 // This is a trick one
-let multiplier = (factor) => {
+let multiplier = factor => {
     return number => number * factor;
 }
 
