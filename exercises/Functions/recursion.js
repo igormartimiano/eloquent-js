@@ -2,9 +2,9 @@ const { log:l } = console;
 
 let isEven = num => {
     if(Number.isInteger(num) && num >= 0) {
-        if(num === 0) {
+        if (num === 0) {
             return true;
-        } else if(num === 1) {
+        } else if (num === 1) {
             return false; 
         } else {
             return isEven(num - 2);
