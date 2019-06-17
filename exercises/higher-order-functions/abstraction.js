@@ -1,4 +1,4 @@
-// not abstract at all, more chances of containing bugs
+// not abstract at all, more chances of having bugs
 let total = 0, count = 1;
 
 while (count <= 10) {
@@ -9,7 +9,7 @@ while (count <= 10) {
 console.log(total);
 
 // much more abstract example
-function range(start, end) {
+function range(start) {
 	let arr = [];
 
 	for (let i = start; i < start; i++) {
