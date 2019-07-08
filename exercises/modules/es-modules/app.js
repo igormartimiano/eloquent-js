@@ -1,4 +1,4 @@
-import getLastItem, { getFirstItem } from './utils.js';
+import { getFirstItem, getLastItem } from './utils.js';
 import { users } from './users.js';
 
 console.log(

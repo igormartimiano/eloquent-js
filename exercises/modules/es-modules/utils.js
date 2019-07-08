@@ -15,8 +15,6 @@ export function getFirstItem(arr) {
   return arr[0];
 }
 
-function getLastItem(arr) {
+export function getLastItem(arr) {
   return arr[arr.length - 1];
 }
-
-export default getLastItem;
