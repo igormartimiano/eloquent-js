@@ -1,4 +1,4 @@
-const {log:l} = console;
+const { log:l } = console;
 
 function greaterThan(num) {
   return value => {

@@ -1,9 +1,9 @@
 let chicken = () => {
-    return egg();
+  return egg();
 }
 
 let egg = () => {
-    return chicken();
+  return chicken();
 }
 
 console.log(chicken() + " came first.");

@@ -10,15 +10,17 @@ function noisy(fn) {
 // Execute the anonymous function inside noisy passing 3,2,1 as arguments
 noisy(Math.min)(3,2,1);
 
-function countOccurencesOnStr(fn) {
+function printCountOnStr(fn) {
   return (str, char) => console.log(
     `${fn(str, char)} "${char}" characters were found on string "${str}"`
   );
 }
 
-countOccurencesOnStr((str, char) => {
+function countOccurencesOnStr(str, char) {
   const strLength = str.length;
   const strWithoutChar = str.replace(new RegExp(char, 'g'), '');
 
   return strLength - strWithoutChar.length;
-})('see you space cowboy', 'e');
+}
+
+printCountOnStr(countOccurencesOnStr)('see you space cowboy', 'e');
