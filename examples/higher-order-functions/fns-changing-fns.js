@@ -1,5 +1,5 @@
 function noisy(fn) {
-  // ... as param receives all arguments passed by noisy()(anyAmount)
+  // ... as param receives all arguments passed by noisy()(anyAmount) in an array
   return (...args) => {
     console.log(`Calling with ${args}`);
     let result = fn(...args);
