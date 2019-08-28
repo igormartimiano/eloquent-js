@@ -8,4 +8,4 @@ let modelRabbit = {
 let killerRabbit = Object.create(modelRabbit);
 
 killerRabbit.type = 'killer';
-killerRabbit.speak('Bought a gun and I wanna use it. \\_(:D)_/');
+killerRabbit.speak('\\_(:D)_/');

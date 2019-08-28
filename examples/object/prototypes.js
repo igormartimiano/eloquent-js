@@ -1,4 +1,5 @@
 const { log:l } = console;
+
 let empty = {
   optional: 'bruh'
 };
